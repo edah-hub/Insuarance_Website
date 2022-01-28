@@ -3,13 +3,40 @@ html{
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-right: 10px;
+   color: #000;
+}
 .nav-bar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: top 30px;
+    padding-bottom: 30px;
     text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+   
+}
+.background_image {
+    background-image:url("img1.png");
 }
 .brand_name{
-    font-size: 24px;
+    font-size: 18px;
+}
+.nav-bar-right{
+   float: right;
+    text-align: center;
+    font-size: 12px;
 }
