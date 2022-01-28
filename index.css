@@ -1,8 +1,15 @@
-*{
+html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.nav{
-    
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+.brand_name{
+    font-size: 24px;
 }
