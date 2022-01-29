@@ -30,7 +30,8 @@ header{
    
 }
 .background_image{
-    background-image:url("img1.png");
+    background-image:url(".images/img1.png");
+    
 }
 .brand_name{
     font-size: 18px;
@@ -40,6 +41,26 @@ header{
     text-align: center;
     font-size: 12px;
 }
+.container_Objectives{
+    display: flex;
+    flex-direction: row;
+    margin-inline-end: 62%;
+    justify-items: center;
+
+}
+
+.objective_list1{
+    text-align: center;
+    color: black;
+
+}
+.objective_list2{
+    text-align: center;
+    color: black;
+
+}
 .objective_list3{
-    content: url('https://api.iconify.design/mdi/account-supervisor-outline.svg?color=blue&width=24&height=24&rotate=180deg&flip=horizontal%2Cvertical');
+    text-align: center;
+    color: black;
+
 }
