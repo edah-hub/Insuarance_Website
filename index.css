@@ -29,9 +29,21 @@ header{
     font-size: 12px;
    
 }
-.background_image{
-    background-image:url(".images/img1.png");
+a{
+    text-decoration: none;
+    color: #f8f9ff;
+}
+
+a:hover{
+    color: #f03b23;
+}
+.head{
+    background-image:url("./images/img1.png");
     
+}
+.background_image{
+    background-position: center;
+    position: relative;
 }
 .brand_name{
     font-size: 18px;
@@ -48,6 +60,18 @@ header{
     justify-items: center;
 
 }
+.logos{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+    
+}
+ul li{
+    width: 20px;
+}
 
 .objective_list1{
     text-align: center;
@@ -63,4 +87,10 @@ header{
     text-align: center;
     color: black;
 
+}
+
+.review-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
