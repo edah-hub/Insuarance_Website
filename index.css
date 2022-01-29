@@ -15,7 +15,7 @@ header{
     justify-content: space-between;
     padding-right: 10px;
     margin-right: 10px;
-   color: #000;
+   text-decoration-color: white;
 }
 .nav-bar{
     display: flex;
@@ -28,6 +28,27 @@ header{
     text-align: center;
     font-size: 12px;
    
+}
+.Signup{
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #007fff;
+}
+.button1{
+    background-color: #007fff;
+    padding: 10px;
+    border: 0px;
+    border-radius: 25px;
+}
+.button2{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
 }
 a{
     text-decoration: none;
@@ -44,6 +65,9 @@ a:hover{
 .background_image{
     background-position: center;
     position: relative;
+    height: 720px;
+    color: #252B42;
+    opacity: 0.9;
 }
 .brand_name{
     font-size: 18px;
@@ -53,6 +77,15 @@ a:hover{
     text-align: center;
     font-size: 12px;
 }
+.text {
+    justify-items: center;
+    color: white;
+}
+.text h2{
+    font-size: 18px;
+ 
+}
+
 .container_Objectives{
     display: flex;
     flex-direction: row;
@@ -60,14 +93,19 @@ a:hover{
     justify-items: center;
 
 }
-.logos{
+.logos ul{
+    display: inline-block;
+    justify-content: space-between;
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
     align-items: center;
 
-    
-    
+}
+.logos_2 span{
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+
 }
 ul li{
     width: 20px;
@@ -92,5 +130,5 @@ ul li{
 .review-box{
     display: flex;
     flex-direction: row;
-    align-items: center;
+  
 }
