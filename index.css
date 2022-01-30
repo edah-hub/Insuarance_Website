@@ -52,7 +52,7 @@ header{
 }
 a{
     text-decoration: none;
-    color: #f8f9ff;
+    color: black;
 }
 
 a:hover{
@@ -68,6 +68,7 @@ a:hover{
     height: 720px;
     color: #252B42;
     opacity: 0.9;
+    background-size: cover;
 }
 .brand_name{
     font-size: 18px;
@@ -131,4 +132,14 @@ ul li{
     display: flex;
     flex-direction: row;
   
+}
+.Appointments{
+    display: flex;
+}
+.Appointments img{
+    height: 500px;
+}
+.upper_footer li{
+    list-style-type: none;
+
 }
