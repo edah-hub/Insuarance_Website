@@ -2,6 +2,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #ede9e8;
 }
 header{
     margin: 0%;
@@ -59,16 +60,18 @@ a:hover{
     color: #f03b23;
 }
 .head{
-    background-image:url("./images/img1.png");
+    background-image:url("images/img1.png");
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
     
 }
 .background_image{
-    background-position: center;
-    position: relative;
-    height: 720px;
     color: #252B42;
     opacity: 0.9;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 @media only screen and (max-width: 600px) {
     html {
@@ -91,24 +94,134 @@ a:hover{
 .text {
     justify-items: center;
     color: white;
+    display: flex;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 15%;
+    font-size: 25px;
+    text-indent: 10px;
 }
 .text h2{
-    font-size: 18px;
+    font-size: 30px;
  
 }
-
-.container_Objectives{
+.objectives1{
+    height: 400px;
+    text-align: center;
     display: flex;
-    flex-direction: row;
-    margin-inline-end: 62%;
-    justify-items: center;
+    padding: 50px;
+    margin-top: -15%;
 
+}
+.objective_list1_1{
+    float: left;
+    width: 25%;
+   padding: 20px;
+    height: 230px;
+    margin-right: 3%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    background-color: white;
+}
+.objective_list1_2{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    height: 230px;
+    margin-right: 3%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    background-color: white;
+}
+.objective_list1_3{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    height: 230px;
+    margin-right: 3%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    background-color: #23A6F0;
+    color: white;
+}
+
+
+
+
+.Objectives2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+.industry{
+    margin-left: 25%;
+    height: 400px;
+    margin-top: 15%;
+    text-align: center;
+   }
+.review-header{
+   align-items: center;
+
+}
+
+.review-box{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.review-header >p{
+    text-align: center;
+}
+.reviewer1 ,.reviewer2 ,.reviewer3{
+border-style: solid;
+justify-content: space-around;
+border-color: darkgray;
+padding-right: 5%;
+padding: 10%;
+}
+.reviewer1{
+    padding: 50px;
+    padding-left: 3%;
+    border-radius: 5%;
+    padding-right: 3%;
+    margin: 20px;
+    background-color: white;
+   
+   
+}
+.reviewer2{
+    padding: 50px;
+    padding-left: 3%;
+    border-radius: 5%;
+    padding-right: 3%;
+    margin: 20px;
+    background-color: white;
+   
+   
+}
+.reviewer3{
+    padding: 50px;
+    padding-left: 3%;
+    border-radius: 5%;
+    padding-right: 3%;
+    background-color: white;
+    margin: 25px;
+   
+   
 }
 .logos span{
     display: inline-block;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3px;
+    padding-right: 3px;
     align-items: center;
+    padding-top: 8px;
+    margin-top: 35%;
+    justify-content: center;
+    margin-left: 10%;
+
 
 }
 
@@ -117,7 +230,16 @@ ul li{
 }
 .subscribe{
     text-align: center;
+    margin-top: 3%;
 }
+
+.container_pricing_flex{
+    text-align: center;
+}
+.container_pricing_flex .Free .standard .premium ul li{
+    text-align: center;
+}
+
 
 .objective_list1{
     text-align: center;
@@ -128,6 +250,12 @@ ul li{
     text-align: center;
     color: black;
 
+}
+.fa-star-o{
+    color: yellow;
+}
+.Free, .standard, .premium{
+    align-items: center;
 }
 .objective_list3{
     text-align: center;
@@ -146,7 +274,40 @@ ul li{
 .Appointments img{
     height: 500px;
 }
+.footer{
+    display: flex;
+}
+ .upper_footer{
+    background-color: white;
+    position: relative;
+    top: 885px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 50px;
+ }  
+
+
 .upper_footer li{
     list-style-type: none;
+    justify-content: center;
+    
 
+}
+.right_lower_footer{
+    float: right;
+}
+
+.Last .contact_us> a{
+    text-decoration: none;
+    color: white;
+}
+
+.Last .contact_us{
+    float: right;
+    margin-right: 20%;
+    background-color: #23A6F0;
+    padding: 15px;
+    border-radius: 2.5px;
+  
 }
