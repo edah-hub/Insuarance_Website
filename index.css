@@ -59,7 +59,7 @@ a{
 a:hover{
     color: #f03b23;
 }
-.head{
+.header{
     background-image:url("images/img1.png");
     height: 900px;
     background-position: center;
@@ -232,14 +232,18 @@ ul li{
     text-align: center;
     margin-top: 3%;
 }
+.pricing{   
+    justify-content: center;
+}
 
 .container_pricing_flex{
     text-align: center;
+    list-style: none;
 }
 .container_pricing_flex .Free .standard .premium ul li{
     text-align: center;
+    list-style-type: none;
 }
-
 
 .objective_list1{
     text-align: center;
@@ -267,6 +271,15 @@ ul li{
     display: flex;
     flex-direction: row;
   
+}
+
+.Branches{
+    background-color: #252B42;
+    position: relative;
+    top: 400px;
+    margin-top: 50px;
+    color: white;
+    height: 550px; 
 }
 .Appointments{
     display: flex;
@@ -298,6 +311,15 @@ ul li{
     float: right;
 }
 
+.lower_footer{
+    position: relative;
+    top: 885px;
+    margin-top: 15px;
+    padding: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .Last .contact_us> a{
     text-decoration: none;
     color: white;
@@ -310,4 +332,10 @@ ul li{
     padding: 15px;
     border-radius: 2.5px;
   
+}
+
+.lower_footer >div{
+    float: right;
+    margin-top: 10%;
+      
 }
