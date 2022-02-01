@@ -34,10 +34,10 @@ header{
     padding: 10px;
     border: 0px;
     border-radius: 5px;
-    background-color: #007fff;
+    background-color: #23A6F0;
 }
 .button1{
-    background-color: #007fff;
+    background-color: #23A6F0;
     padding: 10px;
     border: 0px;
     border-radius: 25px;
@@ -225,7 +225,7 @@ padding: 10%;
 
 }
 
-ul li{
+.logos ul li{
     width: 20px;
 }
 .subscribe{
@@ -239,6 +239,7 @@ ul li{
 .container_pricing_flex{
     text-align: center;
     list-style: none;
+
 }
 .container_pricing_flex .Free .standard .premium ul li{
     text-align: center;
@@ -258,9 +259,42 @@ ul li{
 .fa-star-o{
     color: yellow;
 }
+
+.pricing-header{
+    margin-top: 10%;
+    text-align: center;
+
+}
+.container_pricing_flex{        
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 20%;  
+
+}
+       
+    
 .Free, .standard, .premium{
     align-items: center;
+    border-style: solid;
+    width: 300px;
+    height: 550px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+
 }
+.standard{
+    background-color: #252B42;
+    color: white;
+}
+.container_pricing_flex button{
+    background-color:#23A6F0 ;
+    color: white;
+    width: 280px;
+    height: 45px;
+}
+
 .objective_list3{
     text-align: center;
     color: black;
@@ -281,23 +315,71 @@ ul li{
     color: white;
     height: 550px; 
 }
+.Branches_header{
+
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+.Branches img{
+    float: right;
+    margin-bottom: 50px;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 35%;
+    width: 30%;
+}
+
 .Appointments{
     display: flex;
+    margin-top: 20%;
+    margin-left: 25%;
+    height: 500px;
+    width: 550px;
+    background-color: white;
+    
 }
 .Appointments img{
     height: 500px;
+    
 }
-.footer{
+.Appointments button{
+    background-color: #23A6F0;
+    height: 25px;
+    color: white;
+}
+.Appointments form{
+    margin-top: 20%;
+}
+
+.Last{
     display: flex;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.Last button{
+   margin-left: 30%;
+   background-color: #23A6F0;
+   color: white;
+   height: 40px;
+}
+
+.Footer{
+   margin-bottom: 150px;
+   padding: 25px;
+   height: 500px;
 }
  .upper_footer{
     background-color: white;
     position: relative;
-    top: 885px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 10px;
     margin: 50px;
+    margin-bottom: 20%;
+    height: 300px;
  }  
 
 
@@ -307,17 +389,19 @@ ul li{
     
 
 }
-.right_lower_footer{
-    float: right;
-}
 
 .lower_footer{
-    position: relative;
-    top: 885px;
-    margin-top: 15px;
-    padding: 25px;
+      margin-bottom: 20px;
     margin-left: 20%;
-    margin-right: 20%;
+    display: flex;
+    align-items: center;
+  
+
+}
+.right_lower_footer{
+    margin-right: 15%;
+    margin-top: 0px;
+    margin-left: 40%;
 }
 
 .Last .contact_us> a{
@@ -334,8 +418,3 @@ ul li{
   
 }
 
-.lower_footer >div{
-    float: right;
-    margin-top: 10%;
-      
-}
